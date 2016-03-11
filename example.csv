@@ -1,51 +1,51 @@
-1 25 17 26 13 11 2 21 22 19 10 7 5 12 18 23 9 24 8 3 15 20 6 14 16 4 53 54 55 52 51,,,question equivalence a to b,,,,,
-adaecaeedaebeacedcbacdddcdedebc,,,va,,,,,
-beadeebbdebaddabdccaeaeabeabede,,,vb,,,,Question vA,Question vB
-aeaecabcdaebeacdbcbaaddecddacec,,,Abejuela,Stefanie,,,1,1
-beadeebbaebaadabdccaeaeabeaeaae,,,Almeida,Nicholas,,,2,25
-bcadeebbbebadebbdecacbeebeaaeab,,,Aragon,Julian,,,3,17
-adaecbdcdaebcacedcbacdcdcdbeeac,,,Austin,Christen,,,4,26
-bdbdaebdadcbebdbdbcdcaeabdbeabc,,,Brown,Breann,,,5,13
-adaecdbddcebeacdbaddaaddcdadbbc,,,Brown,Veneese,,,6,11
-bdadaedbbbcadecbdccdcaebbededac,,,Buenrostro,Elena,,,7,2
-bdbdeebbdddadcabdccdcaebbcabeac,,,Cabaltica,Gutz,,,8,21
-baddaedbceaaedbbdccddbeabdbeeed,,,Carr,Kristen,,,9,22
-bddcaebbbeeadaacdccadbeabeaeeae,,,Castro,Alyssa,,,10,19
-adadcabcdaebeacebcbaadddcdaddcc,,,Chen,Elbert,,,11,10
-bbdaaebbdbcaebadcbccdadabeaeaac,,,Cox,Alexis,,,12,7
-adecccacdabbaacdbcbaaadecdbddec,,,De Santiago,Justin,,,13,5
-adaecbeedaebeacedcbacddecddbecc,,,Denny,Nicholas,,,14,12
-adaecabcdadbebbebcbacdddcddbbdc,,,Diaz,Daniel,,,15,18
-bdedcedbdecaddaddbcddabebaabddd,,,Estrada,Jocelyn,,,16,23
-adaeeccdeddbeabeaebeaaddcdadaeb,,,Gardner,Amanda,,,17,9
-bcddaedbbdbaddabdccdcaeebeabbbc,,,Garza,Mary,,,18,24
-bdadbebbcebaedcddcccdbeadcdabdd,,,Gibbons-Stovall,Skyler,,,19,8
-adadbbdcdbedaabacedbccdbdedddba,,,Hickman,Justine,,,20,3
-bdeddebbceaaeebbdcdcdadebabbeac,,,Hoang,Sydney,,,21,15
-bdadeebbbebaddaedcaacacaaeceeec,,,Holdridge,Benjamin,,,22,20
-adaecbeadaebbacebcbeccddcdeddbc,,,Iniguez,Kevin,,,23,6
-baabaebbdbbadbbddccddbeebeaecaa,,,Jumps,Rachel,,,24,14
-adaecaeedaebaacedcbacdddcdeabec,,,Kohlbeck,Sean,,,25,16
-adaecabedaebeacedabacddecaeaeac,,,Kourdi,Jodi,,,26,4
-adaddbdadaedeacebabbcdddedadacc,,,Lobo,Cristina,,,51,53
-bdaaaebbddbaabaccbcaabeecebbabb,,,Martinez,Alex,,,52,54
-adadccdcaaedaacedcbdcadebcedaeb,,,Martinez,Gabriel,,,53,55
-,,,Martinez,Monica,,,54,52
-bdddeebbaebadeabdccadaeebeaeedc,,,Maxwell,Kyle,,,55,51
-adaecdecdaebeacedebacddecddbeac,,,Mendez,Roselle Gabrielle,,,,
-adaddabcdaeecbcdbabbdadbcdedbec,,,Navarro,Gerardo,,,,
-adadccdedcddeacbbedacadabaadbea,,,Park,Mary,,,,
-bcabeebbbeeaddaedccadaeabeaeabc,,,Pechter,Kayla,,,,
-adaedcdcdaebabbdbcbedddeadbebcb,,,Regan,Sarah,,,,
-bdedeebbbdaaeeabdccadadebebcced,,,Robinson,Katelyn,,,,
-bbddaeabbdbaabbadccdabeabdaeaac,,,Rodriguez,Jarid,,,,
-aeadcbcabaebeebebcbbcaddcdcbcec,,,Rubio,Veronica,,,,
-adaecbeadedbeacedcbaedddededdec,,,Sanchez,Carla,,,,
-adaebbacdaebeaceaebacaddcbdeeec,,,Schaefer,Kimberly,,,,
-aceeedbabaeeeabebebddaddcdebeba,,,Sedano,Angelica,,,,
-beedeebbbdaadaebdccacaeabebedac,,,Tan,Richelle Myche,,,,
-adaccbcddadbeacebcbcaaccceebbea,,,Tejeda,Sonya,,,,
-bbbcaebcbecadeabdcccdaebbeaeccc,,,Uy,Kristen,,,,
-adaecaddbadbaacdbcbecdddbbcaaeb,,,Valle,Richard,,,,
-beedaedbbdcadaabdccddaeabdaeccc,,,Venegas,Johana,,,,
-adaccaedeaebcacebdb aadecdedeec,,,Younanian,Devin,,,,
+1 18 23 11 22 10 25 8 6 5 13 17 20 4 19 2 16 21 26 7 9 24 12 15 14 3 53 51 52 54 ,,,,,,,,
+adedacbbacaccabeaeaeaadddebdec,,,va,,,,,
+beeccbeaeaadbdbbbcbbedeaacdead,,,vb,,,,Question vA,Question vB
+baaccbaaeaadbdebabbbddeaccdcba,,,Abejuela,Stefanie,17,b,1,1
+beeccbeaeaadbdcbbcbbedeaacbcad,,,Almeida,Nicholas,24,b,2,18
+adedacebccabcabbaeaaaadbdcbdec,,,Aragon,Julian,19,a,3,23
+bcbccbadeaabdbcbdcebedeabcc da,,,Austin,Christen,14,b,4,11
+adadaacdbcadcabbaecaebdbddadae,,,Brown,Breann,12,a,5,22
+bbdcabaaeaabbdebccbbebaaacdabc,,,Brown,Veneese,16,b,6,10
+bcccabeaeadcbdbbdcbbedeeacdeba,,,Buenrostro,Elena,18,b,7,25
+bcdacbaaeaadb bbecabedbaabddca,,,Cabaltica,Gutz,16,b,8,8
+bacccdaabeadbdbbdcbbeaeaacdaa ,,,Carr,Kristen,17,b,9,6
+addaadbdccbecabaaeaeaaceecbaac,,,Castro,Alyssa,13,a,10,5
+baecadeaeaadcdbbbcbbedaaacdeaa,,,Chen,Elbert,20,b,11,13
+bcdcadeaeaadbaebdcabeaaaeecdaa,,,Cox,Alexis,13,b,12,17
+adddacbbccabcabbbeaaabdedaddab,,,De Santiago,Justin,16,a,13,20
+adedaccbcaddcabbaeaebabdaebddb,,,Denny,Nicholas,16,a,14,4
+adadbcbdacabcabeaeabaadadbaccb,,,Diaz,Daniel,19,a,15,19
+adeabcebecaccabaaeaaaaebcbaccb,,,Estrada,Jocelyn,15,a,16,2
+bbeccdadeaabddcdccbaeddabcdbda,,,Gardner,Amanda,13,b,17,16
+adadacbdacaacabdbeaaaacdadacab,,,Garza,Mary,16,a,18,21
+adddacbbcaaeccbbaeaaaadadbbdac,,,Gibbons-Stovall,Skyler,16,a,19,26
+bcdcababbaacddccedbbeaadbcdddc,,,Hickman,Justine,9,b,20,7
+abddacadccedcdbeaebaaaadaeabbb,,,Hoang,Sydney,13,a,21,9
+bceccbeaeaadbbbbdcbbedeaacdbac,,,Holdridge,Benjamin,22,b,22,24
+bebccdadeaabbcbbddbdedeaacdacc,,,Iniguez,Kevin,16,b,23,12
+abbaccadeabdeaddaecadebbbabcda,,,Jumps,Rachel,4,a,24,15
+adedacbbeca cabeaeaeaadddabdab,,,Kohlbeck,Sean,22,a,25,14
+bbeccbeaeaadbdbdacbbedeaacdead,,,Kourdi,Jodi,22,b,26,3
+bbaccbeaeaadcdabdcbbeaeaacdbaa,,,Lobo,Cristina,19,b,51,53
+abedacadccadcaccaeaaaaddddcdbc,,,Martinez,Alex,16,a,52,51
+adedacbbcacdcababeaaaaaddeadec,,,Martinez,Gabriel,17,a,53,52
+bcd c adbabebecddbdacebbcacaa,,,Martinez,Monica,6,b,54,54
+adedacbbaaaecebeaeaeaadbdebcac,,,Maxwell,Kyle,21,b,55,
+adedacbbacaecabbaeaeaadddebdec,,,Mendez,Roselle Gabrielle,23,a,,
+badccbadeaabbbbddcbdedeeacdbca,,,Navarro,Gerardo,15,b,,
+adedecbbcaadcababeaaaaadacbbee,,,Park,Mary,15,a,,
+abddabdbecabcabecdaaabbbdddaac,,,Pechter,Kayla,12,b,,
+bcbccbeadadcbdddddbcedeaac  b ,,,Regan,Sarah,15,b,,
+adddacebecabcabcaeaedadbddadab,,,Robinson,Katelyn,17,a,,
+acdddcbdccaecabdaecaeabcaeccab,,,Rodriguez,Jarid,12,a,,
+adeddbbbaaaecabaaeaeaabbacbdda,,,Rubio,Veronica,16,a,,
+bceccbecaaaebbebcabbeddaccdddc,,,Sanchez,Carla,15,b,,
+becccbeaeaadbebbdcbbedeaacdbaa,,,Schaefer,Kimberly,22,b,,
+bdeccbadecaddcebccbbebeaecdeba,,,Sedano,Angelica,15,b,,
+bbeccbeaeaadbdbbdcbdddeaacdead,,,Tan,Richelle Myche,22,b,,
+aedddcdbcabdcabbbeaaeabcdddd b,,,Tejeda,Sonya,10,a,,
+bbddcbadbbacbaecbdbbdaadbcddbb,,,Uy,Kristen,8,b,,
+bcdccbaaeaacedddcdbccdeaacd cd,,,Valle,Richard,14,b,,
+adadacebaaadcabbbeaaaadddbdddb,,,Venegas,Johana,17,a,,
+adedccbbacadcabbaeaaaadbcabbaa,,,Younanian,Devin,18,a,,
