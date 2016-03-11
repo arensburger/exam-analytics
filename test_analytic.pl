@@ -102,14 +102,14 @@ foreach my $sn (keys %qd) { # sn = student number
 	}
 }
 
-# print difficulty 
-print "Questions difficulty:\n\n";
-print "Quest. number (vA)\t% difficulty\t# correct\t# wrong\t# blank\n";
+# record answers
+my @difficulty_score; # percent difficulty, order is the same as the questions
 for (my $i=0; $i<scalar @keyA; $i++) {
 	my $total = $diff_correct[$i] + $diff_wrong[$i] + $diff_blank[$i];
-	my $difficulty = int(($diff_correct[$i]/$total)*100);
-	my $question_number = $i+1;
-	print "$question_number\t$difficulty%\t$diff_correct[$i]\t$diff_wrong[$i]\t$diff_blank[$i]\n";
+	push @difficulty_score, int(($diff_correct[$i]/$total)*100);
+#	my $difficulty = int(($diff_correct[$i]/$total)*100);
+#	my $question_number = $i+1;
+#	print "$question_number\t$difficulty%\t$diff_correct[$i]\t$diff_wrong[$i]\t$diff_blank[$i]\n";
 }
 
 
@@ -137,49 +137,62 @@ foreach my $sn (keys %qd) { # sn = student number
 	
 }
 # go through the exam and calculate discrimination for each question
-foreach my $sn (keys %qd) { # sn = student number # loop through students
-	for (my $i=0; $i<scalar @keyA; $i++) { # loop through questions (stopped here)
-		
+my @top_correct; # for top students, number of correct answers, order of array same as questions
+my @bottom_correct; # for bottom students, number of correct answers, order of array same as questions
+
+# calculate correct numbers for top sudents
+foreach my $sn (keys %top_answers) { # loop through top students
+	for (my $i=0; $i<scalar @keyA; $i++) { # loop through questions	
 		#decide if use key A or B
-		if ($qd{$sn}[0] eq "a") {
-			if($keyA[$i] eq $qd{$sn}[$i]) {
-				$diff_correct[$i]++;
-				$total_score{$sn}++;
+		if ($top_answers{$sn}[0] eq "a") {
+			if($keyA[$i] eq $top_answers{$sn}[$i]) {
+				$top_correct[$i]++;
 			}
-			elsif ($qd{$sn}[$i] =~ /\S+/) { #check if there is an answer
-				$diff_wrong[$i]++;
-			}
-			else {
-				$diff_blank[$i]++;
-			}	
 		}
-		elsif ($qd{$sn}[0] eq "b") {
-			if($keyB[$i] eq $qd{$sn}[$i]) {
-				$diff_correct[$i]++;
-				$total_score{$sn}++;
+		elsif ($top_answers{$sn}[0] eq "b") {
+			if($keyB[$i] eq $top_answers{$sn}[$i]) {
+				$top_correct[$i]++;
 			}
-			elsif ($qd{$sn}[$i] =~ /\S+/) { #check if there is an answer
-				$diff_wrong[$i]++;
-			}
-			else {
-				$diff_blank[$i]++;
-			}	
 		}
 		else {
-			die "cannot dertmine the key for @{$qd{$sn}}";
+			die "cannot dertmine the key top students @{$top_answers{$sn}}";
 		}
 	}
 }
 
+# calculate correct numbers for bottom sudents
+foreach my $sn (keys %bottom_answers) { # loop through top students
+	for (my $i=0; $i<scalar @keyA; $i++) { # loop through questions	
+		#decide if use key A or B
+		if ($bottom_answers{$sn}[0] eq "a") {
+			if($keyA[$i] eq $bottom_answers{$sn}[$i]) {
+				$bottom_correct[$i]++;
+			}
+		}
+		elsif ($bottom_answers{$sn}[0] eq "b") {
+			if($keyB[$i] eq $bottom_answers{$sn}[$i]) {
+				$bottom_correct[$i]++;
+			}
+		}
+		else {
+			die "cannot dertmine the key bottom students @{$top_answers{$sn}}";
+		}
+	}
+}
 
+# calculate discrimnation per question
+my @discrimination_score;
+my $denominator = ((keys %bottom_answers) + (keys %top_answers))/2;
+for (my $i=0; $i <  scalar @keyA; $i++) {
+	push @discrimination_score, (($top_correct[$i] - $bottom_correct[$i])/$denominator);
+}
 
-
-#print "$top_cutoff\t$bottom_cutoff\n@sorted_scores\n";
-#print "$top_answers[0]\n";
-#for my $key (keys %bottom_answers) {
-#	print "$key: @{$bottom_answers{$key}}\n";
-#}
-
+### Output the all the answers
+print "Question number (vA)\tdifficulty\tdiscrimnation\n";
+for (my $i=0; $i<scalar @keyA; $i++) {
+	my $question_number = $i+1;
+	print "$question_number\t$difficulty_score[$i]\t$discrimination_score[$i]\n";
+}
 
 sub sort_answers {
 	my ($inputline) = @_;
